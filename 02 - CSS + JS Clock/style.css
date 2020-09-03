@@ -1,0 +1,27 @@
+html {
+  text-align: center;
+}
+
+body {
+  font-size: 2rem;
+  height: 30rem;
+  border: 20px solid white;
+}
+
+.container {
+  background:white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.clock {
+  background: pink;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+}
