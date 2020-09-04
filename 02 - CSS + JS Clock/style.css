@@ -6,6 +6,8 @@ body {
   font-size: 2rem;
   height: 30rem;
   border: 20px solid white;
+  display: flex;
+  align-items: center;;
 }
 
 .container {
@@ -16,12 +18,27 @@ body {
 
 .clock {
   background: pink;
-  width: 80%;
-  height: 80%;
-  margin: auto;
+  width: 30rem;
+  height: 30rem;
+  margin: 350px auto;;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
 }
 
 .hand {
   width: 50%;
-  height: 6px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top:50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all .5s;
 }
