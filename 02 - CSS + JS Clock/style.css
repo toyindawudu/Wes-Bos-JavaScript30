@@ -1,19 +1,17 @@
 html {
   text-align: center;
+  font-size:10px;
 }
 
 body {
   font-size: 2rem;
-  height: 30rem;
-  border: 20px solid white;
   display: flex;
+  flex: 1;
+  min-height: 100vh;
+  /* height: 30rem; */
+  /* border: 20px solid white; */
+  /* display: flex; */
   align-items: center;;
-}
-
-.container {
-  background:white;
-  height: 100vh;
-  width: 100vw;
 }
 
 .clock {
@@ -40,6 +38,6 @@ body {
   top:50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all .5s;
+  transition: all .05s;
   transition-timing-function: cubic-bezier(0.1, 2.7,0.58,1);
 }
